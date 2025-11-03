@@ -13,6 +13,7 @@ import ProfileOne from "./assets/Profile1.png";
 import ProfileTwo from "./assets/Profile2.png";
 import ProfileThree from "./assets/Profile3.png";
 import ProfileFour from "./assets/Profile4.png";
+import Boxes from "./components/boxes";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Header />
       <h1 className="text-[48px] font-semibold text-center mt-[100px]">
         <span className="text-[48px] font-semibold text-[#FF9500]">
-          Unlock Xayrlar
+          Unlock
         </span>
         Your Creative Potential
       </h1>
@@ -55,99 +56,7 @@ function App() {
           VIEW ALL
         </button>
       </div>
-      <div className="flex flex-wrap mt-[80px] justify-center gap-[20px]">
-        <div className="bg-white w-[519px] h-[437px] rounded-12px p-[50px 50px]">
-          <p className="text-[80px] font-bold ml-[400px] ">01</p>
-          <p className="text-[24px] font-semibold mt-[50px] ml-[50px]">
-            Flexible Learning Schedule
-          </p>
-          <p className="text-[18px] font-regular mt-[14px] ml-[50px] w-[420px]">
-            Fit your coursework around your existing commitments and
-            obligations.
-          </p>
-          <img
-            src={Vector}
-            alt=""
-            className="mt-[70px] ml-[415px] cursor-pointer"
-          />
-        </div>
-        <div className="bg-white w-[519px] h-[437px] rounded-12px p-[50px 50px]">
-          <p className="text-[80px] font-bold ml-[400px] ">02</p>
-          <p className="text-[24px] font-semibold mt-[50px] ml-[50px]">
-            Flexible Learning Schedule
-          </p>
-          <p className="text-[18px] font-regular mt-[14px] ml-[50px] w-[420px]">
-            Fit your coursework around your existing commitments and
-            obligations.
-          </p>
-          <img
-            src={Vector}
-            alt=""
-            className="mt-[70px] ml-[415px] cursor-pointer"
-          />
-        </div>
-        <div className="bg-white w-[519px] h-[437px] rounded-12px p-[50px 50px]">
-          <p className="text-[80px] font-bold ml-[400px] ">03</p>
-          <p className="text-[24px] font-semibold mt-[50px] ml-[50px]">
-            Flexible Learning Schedule
-          </p>
-          <p className="text-[18px] font-regular mt-[14px] ml-[50px] w-[420px]">
-            Fit your coursework around your existing commitments and
-            obligations.
-          </p>
-          <img
-            src={Vector}
-            alt=""
-            className="mt-[70px] ml-[415px] cursor-pointer"
-          />
-        </div>
-        <div className="bg-white w-[519px] h-[437px] rounded-12px p-[50px 50px]">
-          <p className="text-[80px] font-bold ml-[400px] ">04</p>
-          <p className="text-[24px] font-semibold mt-[50px] ml-[50px]">
-            Flexible Learning Schedule
-          </p>
-          <p className="text-[18px] font-regular mt-[14px] ml-[50px] w-[420px]">
-            Fit your coursework around your existing commitments and
-            obligations.
-          </p>
-          <img
-            src={Vector}
-            alt=""
-            className="mt-[70px] ml-[415px] cursor-pointer"
-          />
-        </div>
-        <div className="bg-white w-[519px] h-[437px] rounded-12px p-[50px 50px]">
-          <p className="text-[80px] font-bold ml-[400px] ">05</p>
-
-          <p className="text-[24px] font-semibold mt-[50px] ml-[50px]">
-            Flexible Learning Schedule
-          </p>
-          <p className="text-[18px] font-regular mt-[14px] ml-[50px] w-[420px]">
-            Fit your coursework around your existing commitments and
-            obligations.
-          </p>
-          <img
-            src={Vector}
-            alt=""
-            className="mt-[70px] ml-[415px] cursor-pointer"
-          />
-        </div>
-        <div className="bg-white w-[519px] h-[437px] rounded-12px p-[50px 50px]">
-          <p className="text-[80px] font-bold ml-[400px] ">06</p>
-          <p className="text-[24px] font-semibold mt-[50px] ml-[50px]">
-            Flexible Learning Schedule
-          </p>
-          <p className="text-[18px] font-regular mt-[14px] ml-[50px] w-[420px]">
-            Fit your coursework around your existing commitments and
-            obligations.
-          </p>
-          <img
-            src={Vector}
-            alt=""
-            className="mt-[70px] ml-[415px] cursor-pointer"
-          />
-        </div>
-      </div>
+      <Boxes />
       <div className="flex justify-between">
         <div>
           <p className="text-[48px] font-semibold mt-[100px] ml-[161px]">
