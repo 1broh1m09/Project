@@ -1,15 +1,15 @@
 import React from 'react'
+import Vector from "../assets/Vector.png"
 
-function Box() {
+function Box({ number, title, text }) {
     return (
-        <div className="bg-white w-[519px] h-[437px] rounded-12px p-[50px 50px]">
-            <p className="text-[80px] font-bold ml-[400px] ">01</p>
-            <p className="text-[24px] font-semibold mt-[50px] ml-[50px]">
-                Flexible Learning Schedule
+        <div className="bg-white w-[519px] h-[437px] rounded-[12px] p-[50px]">
+            <p className="text-[80px] font-bold ml-[300px]">{number}</p>
+            <p className="text-[24px] font-semibold mt-[50px]">
+                {title}
             </p>
-            <p className="text-[18px] font-regular mt-[14px] ml-[50px] w-[420px]">
-                Fit your coursework around your existing commitments and
-                obligations.
+            <p className="text-[18px] mt-[14px] w-[420px]">
+                {text}
             </p>
             <img
                 src={Vector}
